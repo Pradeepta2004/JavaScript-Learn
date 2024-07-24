@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #sentence {
+            display: block;
+        }
+        #hideButton {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>My name is:</h1>
+    <button onclick="changeName()">start</button>
+    
+    <div>
+        <ul class="list">
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <input type="text">
+    <button>Add</button> 
+    <button>Remove</button>
+
+    <p>0</p>
+    <button>Add</button>
+    <button>REmove</button>
+
+    <script>
+        let heading = document.querySelector("h1")
+        let btn = document.querySelector("button")
+        let originalName = "Titu"
+    
+
+        function changeName(){
+            // heading.textContent = "I'm bubu's bf."
+            // btn.textContent = "pre"
+            // if(btn.value==="pre"){
+            //     heading.textContent = "my name is titu"
+            // }
+            
+        //     if(heading.textContent === "my name is titu") {
+        //         heading.textContent = "I'm bubu's bf."
+        //         btn.textContent = "pre"
+        //     }
+        //     else{
+        //         heading.textContent = "my name is titu"
+        //         btn.textContent = "start"
+        //     } -->
+
+        
+
+
+
+        <!-- heading.textContent = `My name is ${originalName}` -->
+        <!-- btn.textContent = "Set new name"
+        if(heading.textContent === "My name is Titu") {
+            let newName = prompt('Enter your name')
+            heading.textContent =  `My name is ${newName}`
+        }
+        
+
+        } -->
+    <!-- </script>    -->
+
+
+    <p id="sentence">My name is pradeepta</p>
+    <button id="hideButton">Hide Sentence</button>
+    <script>
+        // Get references to the elements using querySelector
+        const sentenceElement = document.querySelector('#sentence');
+        const hideButton = document.querySelector('#hideButton');
+
+        // Add click event listener to the button
+        hideButton.addEventListener('click', function() {
+            // Toggle the display property of the sentence
+            if (sentenceElement.style.display === 'none') {
+                sentenceElement.style.display = 'block';
+                hideButton.textContent = 'Hide Sentence';
+            } else {
+                sentenceElement.style.display = 'none';
+                hideButton.textContent = 'Show Sentence';
+            }
+        });
+    </script>
+
+    
+   
+</body>
+</html> 
+
